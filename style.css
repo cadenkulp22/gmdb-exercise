@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+nav {
+    padding: 15px 20px;
+    background-color: black;
+}
+
+nav a {
+    padding: 0px 5px;
+    text-decoration: none;
+    color: grey;
+}
+
+nav a.active {
+    color: white;
+}
+
+nav input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+#brand {
+    margin-right: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.search {
+    float: right;
+}
+
+#search-button {
+    margin-left: 5px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid gold;
+    background-color: black;
+    color: gold;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.login-container {
+    width: 40%;
+    padding-top: 20px;
+}
+
+.login-label {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.login-form input {
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-button {
+    padding: 12px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
