@@ -36,9 +36,9 @@ nav input {
 
 #search-button {
     margin-left: 5px;
-    padding: 7px;
+    padding: 8px;
     border-radius: 5px;
-    border: 2px solid gold;
+    border: 1px solid gold;
     background-color: black;
     color: gold;
 }
